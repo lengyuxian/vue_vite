@@ -6,6 +6,7 @@
  * -i CHANGELOG.md 指定输出的文件名称*
  * *-s -r 0 指定增量更新，不会覆盖以前的更新日志
  * -n ./changelog-option.js 指定自定义配置*
+ * 
  * */
 const compareFunc = require('compare-func')
 
