@@ -18,7 +18,7 @@ module.exports = {
       
       commit.notes.forEach(note => {
         note.title = 'BREAKING CHANGES'
-        discard = false
+        //  discard = false
       })
       if (commit.type === 'feat') {
         commit.type = '✨ Features | 新功能'
