@@ -10,6 +10,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
+* 修复路由渲染bug ([70872d2](https://github.com/lengyuxian/vue_vite/commit/70872d2))
 * 修改配置 ([7e3dc4a](https://github.com/lengyuxian/vue_vite/commit/7e3dc4a))
 
 
