@@ -1,7 +1,7 @@
 <script setup>
 import { ref, reactive } from 'vue'
 import HelloWorld from '@/components/HelloWorld.vue'
-
+// 测试
 const state = reactive({
     test: 0,
     helloWorldShow: false
