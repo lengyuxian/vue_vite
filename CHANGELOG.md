@@ -8,4 +8,9 @@
 * 添加lock文件 ([dd8602f](https://github.com/lengyuxian/vue_vite/commit/dd8602f))
 
 
+### 🐛 Bug Fixes | Bug 修复
+
+* 修改配置 ([7e3dc4a](https://github.com/lengyuxian/vue_vite/commit/7e3dc4a))
+
+
 

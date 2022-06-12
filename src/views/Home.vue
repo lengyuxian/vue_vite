@@ -1,3 +1,34 @@
+<script setup>
+import { ref, reactive } from 'vue'
+import HelloWorld from '@/components/HelloWorld.vue'
+
+const state = reactive({
+    test: 0,
+    helloWorldShow: false
+})
+state.test = ref()
+const handleChange = () => {
+    state.test = Math.random()*20;
+    if (state.test > 10) {
+        state.helloWorldShow = true
+    } else {
+        state.helloWorldShow = false
+    }
+}
+
+</script>
+
 <template>
-<div>Home</div>
+    <div>
+        <h1>{{ state.test }}</h1>
+            <el-button @click="handleChange">click</el-button>
+            <hr>
+        <HelloWorld v-if="state.helloWorldShow" msg="Hello Vue 3 + Vite" />
+    </div>
 </template>
+
+<style scoped>
+a {
+  color: #42b983;
+}
+</style>

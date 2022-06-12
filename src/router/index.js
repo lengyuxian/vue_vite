@@ -1,4 +1,4 @@
-import { def } from "@vue/shared";
+
 import { createRouter, createWebHistory } from "vue-router";
 import routes from './routes';
 // 开启历史模式

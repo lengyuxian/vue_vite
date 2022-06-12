@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import  '../node_modules/@element-plus/dist/index.css'
+import  '../node_modules/element-plus/dist/index.css'
 import ElementPlus from 'element-plus'
 import router from './router/index'
 
