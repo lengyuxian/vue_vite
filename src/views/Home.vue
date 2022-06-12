@@ -28,7 +28,9 @@ const handleChange = () => {
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 </style>
